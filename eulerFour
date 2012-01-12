@@ -1,0 +1,1 @@
+eulerFour = maximum [ m | n = [100..999], o = [n...999], let m = n*o, let s = show m, s = reverse s]
